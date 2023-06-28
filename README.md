@@ -63,3 +63,4 @@ Returns a JSON response with
 #### GET/submitData/?user__email=\<email>
 Return a list of all objects that were sent to the system by the user with the specified email address
 
+You can try using the API methods at https://Evgen2308.pythonanywhere.com/swagger-ui

@@ -29,7 +29,7 @@ SECRET_KEY = str(os.getenv('SECRET_KEY'))
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['Evgen2308.pythonanywhere.com', '127.0.0.1']
 
 
 # Application definition
@@ -125,9 +125,9 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/4.2/howto/static-files/
 
 STATIC_URL = 'static/'
-# MEDIA_URL = '/media/'
-# STATIC_ROOT = '/home/Evgen2308/FSTR/static'
-# MEDIA_ROOT = '/home/Evgen/FSTR/media'
+MEDIA_URL = '/media/'
+STATIC_ROOT = '/home/Evgen2308/FSTR_deploy/FSTR/static'
+MEDIA_ROOT = '/home/Evgen/FSTR_deploy/FSTR/media'
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
